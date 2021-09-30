@@ -18,6 +18,10 @@ import SetupUseRef from './tutorial/5-useRef/setup/1-useRef-basics';
 
 import SetupReducer from './tutorial/6-useReducer/setup';
 
+import SetupProp from './tutorial/7-prop-drilling/setup/1-prop-drilling';
+
+import SetupContextApi from './tutorial/8-useContext/setup/1-context-api';
+
 function App() {
   return (
     <div className="container">
@@ -42,7 +46,13 @@ function App() {
       {/* <SetupUseRef /> */}
 
       {/* useReducer */}
-      <SetupReducer />
+      {/* <SetupReducer /> */}
+
+      {/* prop-drilling */}
+      {/* <SetupProp /> */}
+
+      {/* context api */}
+      <SetupContextApi />
     </div>
   );
 }
