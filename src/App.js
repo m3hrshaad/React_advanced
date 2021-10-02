@@ -22,6 +22,14 @@ import SetupProp from './tutorial/7-prop-drilling/setup/1-prop-drilling';
 
 import SetupContextApi from './tutorial/8-useContext/setup/1-context-api';
 
+import SetupCustomHooks from './tutorial/9-custom-hooks/setup/1-fetch-example';
+
+import SetupPropTypes from './tutorial/10-prop-types/setup';
+
+import SetupReactRouter from './tutorial/11-react-router/setup';
+
+import SetupReactOptimize from './tutorial/12-memo-useMemo-useCallback/setup';
+
 function App() {
   return (
     <div className="container">
@@ -52,7 +60,19 @@ function App() {
       {/* <SetupProp /> */}
 
       {/* context api */}
-      <SetupContextApi />
+      {/* <SetupContextApi /> */}
+
+      {/* custom hooks */}
+      {/* <SetupCustomHooks /> */}
+
+      {/* propsTypes */}
+      {/* <SetupPropTypes /> */}
+
+      {/* react Router */}
+      {/* <SetupReactRouter /> */}
+
+      {/* react optimize */}
+      <SetupReactOptimize />
     </div>
   );
 }
